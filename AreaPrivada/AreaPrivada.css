@@ -1,0 +1,39 @@
+.input-container {
+  width: 100%;
+  height: 100vh;
+}
+.input-content {
+  width: 85%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.input-content input {
+  width: 80%;
+
+  border: 1px solid #b7c4e9;
+  color: #432b51;
+  background: #d4dcf2;
+  height: 35px;
+  font-family: "Nunito";
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  outline: none;
+  font-size: 14px;
+}
+.input-content button {
+  width: 85px;
+  height: 25px;
+  border-radius: 10%;
+  border: 1px solid #432b51;
+  background: #757f9a;
+  background-size: 106px;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.16);
+  margin-top: 10px;
+}

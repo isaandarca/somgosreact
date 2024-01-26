@@ -1,0 +1,6 @@
+.footer img {
+  display: flex;
+
+  align-content: center;
+  margin-left: 40px;
+}

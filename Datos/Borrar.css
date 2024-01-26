@@ -1,0 +1,50 @@
+.borrar-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.borrar-content {
+  width: 85%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.borrar-content input {
+  width: 80%;
+  background: #d4dcf2;
+  border: 1px solid #b7c4e9;
+  color: #432b51;
+  /* color: #ffffff; */
+  /* background: rgba(214, 231, 247, 0.413); */
+  height: 35px;
+  font-family: "Nunito";
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  outline: none;
+  font-size: 14px;
+}
+.borrar-content button {
+  width: 75px;
+  height: 25px;
+  border-radius: 10%;
+  border: 0.5px solid #432b51;
+  background: #757f9a;
+  background-size: 106px;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+}
+.borrar-content label {
+  margin-top: 15px;
+  color: black;
+}
+.borrar-content label:hover {
+  color: #757f9a;
+}

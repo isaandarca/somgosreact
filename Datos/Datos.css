@@ -1,0 +1,38 @@
+.select select {
+  margin: 20px;
+  width: 60%;
+  background: #d4dcf2;
+  border: 1px solid #b7c4e9;
+  color: #432b51;
+  /* color: #ffffff; */
+  /* background: rgba(214, 231, 247, 0.413); */
+  height: 35px;
+  font-family: "Nunito";
+  padding-left: 20px;
+  box-sizing: border-box;
+  /* border-radius: 25px; */
+  outline: none;
+  font-size: 14px;
+  margin-top: 2px;
+}
+.datos-container {
+  width: 100%;
+  height: 100vh;
+}
+.select {
+  width: 85%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.select label {
+  color: black;
+  font-size: 14px;
+}
+.select label:hover {
+  color: #757f9a;
+}

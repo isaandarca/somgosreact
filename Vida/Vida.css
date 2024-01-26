@@ -1,0 +1,35 @@
+.vida-container {
+  width: 100%;
+  height: 100vh;
+}
+.vida-content {
+  width: 85%;
+  height: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.vida-body {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  margin: auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+    justify-content: center; */
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.16);
+  box-sizing: border-box;
+  padding: 00px 0px 0px 0px;
+}
+.vida-partes {
+  margin-top: 1px;
+  width: 100%;
+  height: 100%;
+}
+.vida-partes--Dogitem {
+  margin-top: 1px;
+}
